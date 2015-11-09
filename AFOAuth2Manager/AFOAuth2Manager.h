@@ -48,6 +48,7 @@
  The client identifier issued by the authorization server, uniquely representing the registration information provided by the client.
  */
 @property (readonly, nonatomic, copy) NSString *clientID;
+@property (readonly, nonatomic, copy) NSString *secret;
 
 /**
  Whether to encode client credentials in a Base64-encoded HTTP `Authorization` header, as opposed to the request body. Defaults to `YES`.
